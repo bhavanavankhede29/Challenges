@@ -1,0 +1,17 @@
+﻿{% extends "layout.html" %}
+
+{% block content %}
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Hello World</title>
+</head>
+<body>
+    <h6> Hello World ! </h6>
+    <input type="button" onclick="parent.location ='https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MSFT&apikey=demo&datatype=csv'" value="Download">
+</body>
+</html>
+{% endblock %}
